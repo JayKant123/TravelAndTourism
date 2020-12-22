@@ -1,0 +1,172 @@
+.place_img{
+height:100%;
+width:98%;
+float:left;
+}
+.data h2{
+color:#002d68;
+font-size:25px;
+}
+.offer{
+color:#966e73;
+font-weight:bold;
+font-size:18px;
+}
+.offer span{
+color:black;
+font-weight:bold;
+font-size:26px;
+}
+.trip{
+color:black;
+font-size:15px;
+}
+.trip span{
+color:#002d68;
+font-weight:bold;
+font-size:18px;
+}
+.trip a{
+float:right;
+margin-right:15px;
+}
+.data2 h2{
+color:#002d68;
+font-size:20px;
+}
+.trip a:hover{
+opacity:.7;
+transition:.5s;
+}
+.description{
+color:#004f98;
+font-size:18px;
+}
+.description span{
+color:#002d68;
+font-weight:bold;
+font-size:23px;
+}
+.restdescription{
+color:#004f98;
+font-size:18px;
+}
+.restdescription span{
+color:#002d68;
+font-weight:bold;
+font-size:23px;
+}
+.data2 .trip{
+color:black;
+font-size:14px;
+}
+.data2 .trip span{
+color:#002d68;
+font-weight:bold;
+font-size:19px;
+}
+.data2 .trip a{
+float:right;
+margin-right:10px;
+}
+.data2 .offer{
+color:#966e73;
+font-size:14px;
+font-weight:bold;
+}
+.data2 .offer span{
+color:black;
+font-weight:bold;
+font-size:21px;
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+
+
+.place_img{
+height:100%;
+width:98%;
+float:left;
+}
+.data h2{
+color:#002d68;
+font-size:22px;
+}
+.offer{
+color:#966e73;
+font-weight:bold;
+font-size:15px;
+}
+.offer span{
+color:black;
+font-weight:bold;
+font-size:23px;
+}
+.trip{
+color:black;
+font-size:15px;
+}
+.trip span{
+color:#002d68;
+font-weight:bold;
+font-size:17px;
+}
+.trip a{
+float:right;
+margin-right:15px;
+}
+.data2 h2{
+color:#002d68;
+font-size:16px;
+}
+.trip a:hover{
+opacity:.7;
+transition:.5s;
+}
+.description{
+color:#004f98;
+font-size:14px;
+}
+.description span{
+color:#002d68;
+font-weight:bold;
+font-size:20px;
+}
+.restdescription{
+color:#004f98;
+font-size:14px;
+}
+.restdescription span{
+color:#002d68;
+font-weight:bold;
+font-size:20px;
+}
+.data2 .trip{
+color:black;
+font-size:13px;
+}
+.data2 .trip span{
+color:#002d68;
+font-weight:bold;
+font-size:17px;
+}
+.data2 .trip a{
+float:right;
+margin-right:10px;
+}
+.data2 .offer{
+color:#966e73;
+font-size:14px;
+font-weight:bold;
+}
+.data2 .offer span{
+color:black;
+font-weight:bold;
+font-size:21px;
+}
+
+}

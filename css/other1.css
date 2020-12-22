@@ -1,0 +1,444 @@
+.tour-name{
+min-width:1300px;
+width:100%;
+height:160px;
+color:#696969;
+text-align:center;
+font-size:35px;
+font-family:century gothic;
+font-weight:bold;
+background-color:#0099ff;
+}
+.header{
+min-width:1300px;
+box-shadow:4px 6px 8px 2px rgba(0,0,0,0.30),4px 8px 12px 4px rgba(0,0,0,0.45);
+width:100%;
+height:80px;
+margin-bottom:15px;
+}
+body{
+background-color:#f5f5f5;
+}
+.logo{
+width:30%;
+height:70px;
+float:left;
+background-color:#002dff;
+color:white;
+padding-top:10px;
+font-size:40px;
+}
+
+.sign{
+width:10%;
+height:50px;
+float:right;
+background-color:#002dff;
+color:white;
+padding-top:30px;
+font-size:20px;
+}
+
+
+
+.nav{
+float:left;
+background-color:#002dff;
+width:60%;
+padding-top:20px;
+height:60px;
+}
+ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+ul li{
+position:relative;
+float:left;
+margin-top:0px;
+}
+.nav ul li a{
+color:white;
+display:block;
+text-decoration:none;
+font-size:18px;
+text-align:center;
+padding:10px 25px 10px 25px;
+font-family:century gothic;
+font-weight:bold;
+}
+.nav a:hover{
+color:#002dff;
+background:white;
+opacity:.5;
+transition:.4s;
+}
+ul li ul{
+background:#002dff;
+}
+ul li ul li{
+float:none;
+}
+ul li ul{
+display:none;
+}
+ul li:hover ul{
+display:block;
+}
+
+h1{
+word-spacing:6px;
+text-align:center;
+color:#002d68;
+font-size:30px;
+font-family:'Questrial', sans-serif;
+}
+
+
+
+.left{
+/*height:2400px;*/
+min-width:200px;
+width:19%;
+float:left;
+background-color: #0099ff ;
+}
+.center{
+width:77%;
+background-color:none;
+float:left;
+}
+.first{
+width:99%;
+/*height:380px;*/
+margin:1px;
+margin-top:20px;
+}
+.one{
+text-align:center;
+width:100%;
+height:60px;
+background-color:#002dff;
+color:white;
+font-family:century gothic;
+font-weight:bold;
+font-size:20px;
+line-height:50px;
+}
+.one a{
+text-decoration:none;
+color:white;
+}
+.second{
+width:100%;
+/*height:750px;*/
+font-family:times new roman;
+font-weight:bold;
+font-size:13px;
+line-height:30px;
+}
+.second a{
+color:black;
+text-decoration:none;
+}
+.second a:hover{
+opacity:.5;
+transition:.2s;
+}
+.center_data{
+min-width:910px;
+box-shadow:4px 6px 8px 2px rgba(0,0,0,0.30),4px 8px 12px 4px rgba(0,0,0,0.45);
+width:96%;
+height:380px;
+margin:2%;
+background-color:none;
+color:white;
+font-family:century gothic;
+/*font-weight:bold;*/
+display:block;
+}
+.pic{
+
+background-color:none;
+height:270px;
+width:420px;
+float:left;
+}
+.data{
+background-color:none;
+height:270px;
+width:45%;
+float:left;
+}
+.description{
+background-color:none;
+height:80px;
+width:100%;
+float:right;
+margin-top:2%;
+}
+.rest{
+min-width:1300px;
+width:100%;
+/*height:2500px;*/
+background-color:none;
+float:left;
+}
+.restdata{
+width:96%;
+box-shadow:1px 4px 6px 1px rgba(0,0,0,0.30),2px 6px 8px 2px rgba(0,0,0,0.45);
+height:405px;
+margin:2%;
+background-color:none;
+color:white;
+font-family:century gothic;
+/*font-weight:bold;*/
+display:block;
+}
+.restpic{
+background-color:none;
+height:240px;
+width:40%;
+float:left;
+}
+.data2{
+background-color:none;
+/*width:330px;*/
+height:230px;
+float:left;
+}
+.restdescription{
+background-color:none;
+/*height:80px;*/
+width:100%;
+float:right;
+margin-top:2%;
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+.tour-name{
+min-width:1010px;
+width:100%;
+height:110px;
+color:#696969;
+text-align:center;
+font-size:30px;
+font-family:century gothic;
+font-weight:bold;
+background-color:#0099ff;
+}
+.header{
+min-width:1010px;
+box-shadow:4px 6px 8px 2px rgba(0,0,0,0.30),4px 8px 12px 4px rgba(0,0,0,0.45);
+width:100%;
+height:60px;
+margin-bottom:12px;
+}
+body{
+background-color:#f5f5f5;
+}
+.logo{
+width:30%;
+height:55px;
+float:left;
+background-color:#002dff;
+color:white;
+padding-top:8px;
+font-size:35px;
+}
+
+.sign{
+width:10%;
+height:43px;
+float:right;
+background-color:#002dff;
+color:white;
+padding-top:20px;
+font-size:15px;
+}
+
+.nav{
+float:left;
+background-color:#002dff;
+width:60%;
+padding-top:10px;
+height:53px;
+}
+ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+ul li{
+position:relative;
+float:left;
+margin-top:0px;
+}
+.nav ul li a{
+color:white;
+display:block;
+text-decoration:none;
+font-size:15px;
+text-align:center;
+padding:7px 20px 7px 20px;
+font-family:century gothic;
+font-weight:bold;
+}
+.nav a:hover{
+color:#002dff;
+background:white;
+opacity:.5;
+transition:.4s;
+}
+ul li ul{
+background:#002dff;
+}
+ul li ul li{
+float:none;
+}
+ul li ul{
+display:none;
+}
+ul li:hover ul{
+display:block;
+}
+
+h1{
+word-spacing:6px;
+text-align:center;
+color:#002d68;
+font-size:25px;
+font-family:'Questrial', sans-serif;
+}
+
+.tour-link{
+min-width:1000px;
+}
+
+
+.left{
+/*height:2400px;*/
+min-width:160px;
+width:19%;
+float:left;
+background-color: #0099ff ;
+}
+.center{
+min-width:800px;
+width:77%;
+background-color:none;
+float:left;
+}
+.first{
+width:99%;
+/*height:380px;*/
+margin:1px;
+margin-top:20px;
+}
+.one{
+text-align:center;
+width:100%;
+height:45px;
+background-color:#002dff;
+color:white;
+font-family:century gothic;
+font-weight:bold;
+font-size:17px;
+line-height:50px;
+}
+.one a{
+text-decoration:none;
+color:white;
+}
+.second{
+width:100%;
+/*height:750px;*/
+font-family:times new roman;
+font-size:13px;
+line-height:26px;
+}
+.second a{
+color:black;
+text-decoration:none;
+}
+.second a:hover{
+opacity:.5;;
+transition:.2s;
+}
+.center_data{
+min-width:690px;
+box-shadow:4px 6px 8px 2px rgba(0,0,0,0.30),4px 8px 12px 4px rgba(0,0,0,0.45);
+width:96%;
+height:340px;
+margin:2%;
+background-color:none;
+color:white;
+font-family:century gothic;
+/*font-weight:bold;*/
+display:block;
+}
+.pic{
+
+background-color:none;
+height:235px;
+width:370px;
+float:left;
+}
+.data{
+background-color:none;
+height:235px;
+width:45%;
+float:left;
+}
+.description{
+background-color:none;
+height:80px;
+width:100%;
+float:right;
+margin-top:2%;
+}
+.rest{
+min-width:1000px;
+width:100%;
+/*height:2500px;*/
+background-color:none;
+float:left;
+}
+.restdata{
+width:96%;
+box-shadow:1px 4px 6px 1px rgba(0,0,0,0.30),2px 6px 8px 2px rgba(0,0,0,0.45);
+height:250px;
+margin:2%;
+background-color:none;
+color:white;
+font-family:century gothic;
+/*font-weight:bold;*/
+display:block;
+}
+.restpic{
+background-color:none;
+height:160px;
+width:40%;
+float:left;
+}
+.data2{
+background-color:none;
+/*width:330px;*/
+height:160px;
+float:left;
+}
+.restdescription{
+background-color:none;
+/*height:80px;*/
+width:100%;
+float:right;
+margin-top:2%;
+}
+
+
+}
